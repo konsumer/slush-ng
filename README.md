@@ -46,16 +46,12 @@ do you like LESS or SASS?
 *  SASS - if bootstrap, use bootstrap-SASS source, else use foundation/ionic source
 
 
- do you need any of these?
+do you need any of these?
 
- *  ngRouter (uncheck angular-ui-router)
- *  angular-ui-router (uncheck ngRouter)
- *  ngCookie
+*  ngRouter (uncheck angular-ui-router)
+*  angular-ui-router (uncheck ngRouter)
+*  ngCookie
 
- ### scaffolds
+## scaffolds
 
-scaffolds should be aware of the choices made above and do smart things. For example, `ng:models` will 
-
-
-
-
+scaffolds should be aware of the above choices, when they generate things.
